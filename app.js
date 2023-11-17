@@ -41,7 +41,7 @@ function myHandle(){
     imgHey.src = `./Assets/${randomNum}.PNG`
     imgSrc.style.transform = 'rotate(360deg)'
     if(randomNum == 1){
-        alert('Turn for Umair')
+        alert('Turn for Talha')
         nGame2.setAttribute('onclick', 'myNum()')
         playNum2.textContent = 0
         number = 0
